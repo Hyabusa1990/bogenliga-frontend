@@ -8,17 +8,16 @@ import {Link} from "react-router-dom";
 export const NavigationBar = () => {
     return (
         <>
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" bg="light" data-bs-theme="light">
                 <Container>
                     <Navbar.Brand>
                         <Link to="/">
-                            <img
-                                src={logo}
-                                width="250"
-                                height="50"
-                                className="d-inline-block align-top"
-                                alt="Bogenliga.de"
-                            />
+                                <img
+                                    src={logo}
+                                    width="250"
+                                    height="50"
+                                    className="d-inline-block align-top"
+                                    alt="Bogenliga.de"/>
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
