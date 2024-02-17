@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "bootswatch/dist/litera/bootstrap.css";
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
@@ -9,9 +8,6 @@ import {Provider} from "react-redux";
 import {store} from "./store";
 // import i18n (needs to be bundled ;))
 import './i18n';
-
-// Importing the Bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
